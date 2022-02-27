@@ -1,7 +1,7 @@
 #! /usr/bin/perl
 
 # ex:ts=8 sw=4:
-# $OpenBSD: Quirks.pm,v 1.1368 2022/02/26 09:41:54 ajacoutot Exp $
+# $OpenBSD: Quirks.pm,v 1.1371 2022/02/26 22:28:43 sthen Exp $
 #
 # Copyright (c) 2009 Marc Espie <espie@openbsd.org>
 #
@@ -702,6 +702,22 @@ my $stem_extensions = {
 	'py-pbr' => 'py3-pbr',
 	'py-testtools' => 'py3-testtools',
 	'py-pyusb' => 'py3-pyusb',
+	'py-atomicwrites' => 'py3-atomicwrites',
+	'py-attrs' => 'py3-attrs',
+	'py-coverage' => 'py3-coverage',
+	'py-dateutil' => 'py3-dateutil',
+	'py-freezegun' => 'py3-freezegun',
+	'py-hypothesis' => 'py3-hypothesis',
+	'py-more-itertools' => 'py3-more-itertools',
+	'py-pathlib2' => 'py3-pathlib2',
+	'py-pluggy' => 'py3-pluggy',
+	'py-py' => 'py3-py',
+	'py-test' => 'py3-test',
+	'py-test-benchmark' => 'py3-test-benchmark',
+	'py-test-cov' => 'py3-test-cov',
+	'py-test-mock' => 'py3-test-mock',
+	'py-test-runner' => 'py3-test-runner',
+	'py-setuptools_scm' => 'py3-setuptools_scm',
 };
 
 my $obsolete_reason = {};
@@ -1639,6 +1655,9 @@ setup_obsolete_reason(
 	31 => 'py-linecache2',
 	31 => 'py-traceback2',
 	31 => 'py-unittest2',
+	31 => 'py-pathlib2',
+	6 => 'py3-pathlib2',
+	6 => 'py3-pathlib',
 );
 
 # though it's not yet used, these should be pkgnames, so that eventually

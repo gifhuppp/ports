@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.9 2021/05/21 19:50:25 kmos Exp $
+# $OpenBSD: Makefile,v 1.11 2022/02/26 22:18:11 sthen Exp $
 
 COMMENT=		Python function signatures from PEP362 for 2.6, 2.7, 3.2+
 
@@ -6,7 +6,7 @@ MODPY_EGG_VERSION=	1.0.2
 DISTNAME=		funcsigs-${MODPY_EGG_VERSION}
 PKGNAME=		py-${DISTNAME}
 CATEGORIES=		devel
-REVISION=		3
+REVISION=		4
 
 # MIT
 PERMIT_PACKAGE=	Yes

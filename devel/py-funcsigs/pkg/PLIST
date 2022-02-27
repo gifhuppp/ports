@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.2 2016/06/13 09:08:49 shadchin Exp $
+@comment $OpenBSD: PLIST,v 1.4 2022/02/26 22:18:11 sthen Exp $
 lib/python${MODPY_VERSION}/site-packages/funcsigs/
 lib/python${MODPY_VERSION}/site-packages/funcsigs-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/funcsigs-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
