@@ -1,7 +1,7 @@
 #! /usr/bin/perl
 
 # ex:ts=8 sw=4:
-# $OpenBSD: Quirks.pm,v 1.1663 2024/10/20 14:58:44 ajacoutot Exp $
+# $OpenBSD: Quirks.pm,v 1.1666 2024/10/24 13:51:40 rsadowski Exp $
 #
 # Copyright (c) 2009 Marc Espie <espie@openbsd.org>
 #
@@ -594,6 +594,8 @@ my $stem_extensions = {
 	'py3-buildbot-react-waterfall-view' => 'py3-buildbot-waterfall-view',
 	'py3-buildbot-react-waterfall-view' => 'py3-buildbot-waterfall-view',
 	'py3-buildbot-www-react' => 'py3-buildbot-www',
+# 7.7
+	'libkomparediff2-kf5' => 'kf6-libkomparediff2',
 };
 
 my $obsolete_reason = {};
@@ -1187,6 +1189,9 @@ setup_obsolete_reason(
 	70 => 'xml-security-c',
 	3 => 'utox',
 	3 => 'vino',
+	3 => 'kipi-plugins',
+	3 => 'knotes',
+	3 => 'libkipi',
 );
 
 # though it's not yet used, these should be pkgnames, so that eventually
