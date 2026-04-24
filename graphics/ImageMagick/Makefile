@@ -1,5 +1,3 @@
-BROKEN-arm=	libm functions (cabs etc) not detected, fallback code is broken
-
 COMMENT=	image processing tools
 
 VER=		6.9.13-43
