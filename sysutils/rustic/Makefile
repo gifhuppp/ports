@@ -10,6 +10,7 @@ USE_NOEXECONLY =	Yes
 COMMENT =		fast, encrypted, deduplicated backups
 
 DIST_TUPLE =		github rustic-rs rustic v0.11.4 .
+REVISION =		0
 
 CATEGORIES =		sysutils
 
